@@ -26,8 +26,8 @@
  * for the JavaScript code in this page.
  *
  */
-var baseUrl = "http://192.168.100.67/free-caro-online"; // http://example.com
-var indexPage = "index.php"; // index.php
+var baseUrl = ""; // http://example.com
+var indexPage = ""; // index.php
 var refreshRate = 300;
 var siteUrl = baseUrl+"/"+indexPage;
 var playerUrl = baseUrl+"/js/player.min.js";

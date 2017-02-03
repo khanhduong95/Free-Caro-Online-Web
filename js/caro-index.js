@@ -30,45 +30,6 @@ $(document).ready(function(){
 
 	getSessionData();
 	var refreshViewVar = refreshView();
-	/*
-
-	 $("#gameModes").change(function(){
-	 var gameModes = $(this).val();
-
-	 if (gameModes == "gameView"){
-	 hideGamesList();
-	 initGame();
-
-	 var refreshGameVar = refreshGame();
-
-	 $("#joinGame").click(function(){
-	 joinGame();
-	 $("#joinGame").hide();
-	 $("#readyGame").show();
-	 $("#quitGame").show();
-	 $("#readyGame").click(function(){
-	 readyGame();
-	 $("#readyGame").hide();
-	 $(".caro-square").click(function(){
-	 updateMove($(this));
-	 });
-
-	 });
-	 $("#quitGame").click(function(){
-	 quitGame();
-	 });
-
-	 });
-	 $("#backToGamesList").click(function(){
-	 backToGamesList();
-	 });
-
-	 }
-	 else {
-	 showGamesList();
-	 }
-	 });
-	 */
 	
 	$("button#register-submit").click(function(){
 		register();
