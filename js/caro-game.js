@@ -104,7 +104,7 @@ function displayGame(gameId){
 	for (var i = 0; i < 15; i++){
 		$("#game-moves tbody").append("<tr id='caro-row-"+i+"'></tr>");
 		for (var j = 0; j < 15; j++){
-			$("#game-moves tbody #caro-row-"+i).append("<td><button type='button' id='caro-square-"+i+"-"+j+"' class='caro-square'>&nbsp</button></td>");
+			$("#game-moves tbody #caro-row-"+i).append("<td><button type='button' id='caro-square-"+i+"-"+j+"' class='caro-square' style='height: 30px; width: 30px'>&nbsp</button></td>");
 		}
 	}
 

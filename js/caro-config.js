@@ -26,7 +26,7 @@
  * for the JavaScript code in this page.
  *
  */
-var baseUrl = "http://localhost/free-caro-online"; // http://example.com
+var baseUrl = "http://192.168.100.67/free-caro-online"; // http://example.com
 var indexPage = "index.php"; // index.php
 var refreshRate = 300;
 var siteUrl = baseUrl+"/"+indexPage;
